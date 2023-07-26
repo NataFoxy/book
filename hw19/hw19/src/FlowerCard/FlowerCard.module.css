@@ -1,0 +1,23 @@
+.card {
+  margin: 50px;
+  width: 400px;
+  height: 500px;
+  background-color: lightcyan;
+  border-color: black;
+  border-radius: 10px;
+  border-width: 1px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.header {
+  padding-top: 20px;
+  text-align: center;
+}
+
