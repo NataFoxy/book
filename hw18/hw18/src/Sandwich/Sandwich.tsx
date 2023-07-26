@@ -13,6 +13,10 @@ function Sandwich(): JSX.Element {
     setSandwich(sandwich + 'Cheese ');
   }
 
+  function handleChange() {
+    setSandwich('');
+  }
+
   return (
     <div>
       <h2>Please choose an ingridients for Your Sandwich:</h2>
@@ -56,6 +60,9 @@ function Sandwich(): JSX.Element {
         Cheese
       </button>
       <h2>Sandwich: {sandwich}</h2>
+      <button type="button" onClick={handleChange}>
+        I've changed my mind
+      </button>
     </div>
   );
 }
